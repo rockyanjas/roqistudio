@@ -1,0 +1,40 @@
+body {
+    background-image:url("../img/bg-5-hd.jpg");
+    background-size: 2200px;
+}
+
+.section-penilaian {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#space {
+    padding-top: 10x;
+    padding-bottom: 10px;
+}
+
+.gagal {
+    color: red;
+}
+
+.lumayan {
+    color: rgb(226, 180, 29);
+}
+
+.puas {
+    color: rgb(28, 109, 186);
+}
+
+.sangatpuas {
+    color: green;
+}
+
+.form-nama, .form-kelas, .form-nilai {
+    padding-bottom: 10px;
+}
+
+button > a {
+    color: white;
+}

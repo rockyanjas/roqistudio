@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gastur - Tour Solution</title>
+    <link rel="shortcut icon" href="assets/img/fav-gastur.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/flaticon/css/flaticon.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons/css/material.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slider.css">
+
+</head>
+
+<body id="home">
+    <div class="bar bar-sticky">
+        <div class="bar__content u-centered">
+            <a href="index.html"><img class="bar__logo" src="assets/img/logo-gastur.png" alt=""></a>
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav" id="nav-index">
+                <a id="nav-1" class="nav__link" href="#home"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                <a id="nav-2" class="nav__link" href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i> About
+                    Us</a>
+                <a id="nav-3" class="nav__link" href="#services"><i class="fa fa-list" aria-hidden="true"></i>
+                    Services</a>
+                <a id="nav-4" class="nav__link" href="#paket"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                    Paket</a>
+                <a id="nav-4" class="nav__link" href="#gallery"><i class="fa fa-image" aria-hidden="true"></i>
+                    Gallery</a>
+                <a id="nav-4" class="nav__link" href="#events"><i class="fa fa-book" aria-hidden="true"></i>
+                    Events</a>
+                <a id="nav-5" class="nav__link" href="#testimoni"><i class="fa fa-star" aria-hidden="true"></i>
+                    Testimonial</a>
+                <a id="nav-btn1" href="login.php"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="slider">
+
+        <div class="myslider" style="display: block;">
+            <div class="txt">
+                <div class="call-to-action">
+                    <h1 class="call-to-action__title">Wisata Hemat</h1>
+                    <p class="call-to-action__description">
+                        Sekarang liburan bisa hemat jika bersama kami, kami jamin Anda puas dengan layanan kami. Segera order sekarang.
+                    </p>
+                    <a href="login.php" class="call-to-action__button" type="button"><i class="fa fa-sign-in"
+                            aria-hidden="true"></i> Order!</a>
+                </div>
+
+            </div>
+            <img src="assets/img/slider-gastour.jpg" style="width: 100%;height: 100%;">
+        </div>
+
+        <div class="myslider fade">
+            <div class="txt">
+                <div class="call-to-action">
+                    <h1 class="call-to-action__title">Fasilitas Lengkap</h1>
+                    <p class="call-to-action__description">
+                        Jangan kawatir tentang fasilitas, kami menjamin fasilitas perjalanan dan tour akan membuat Anda merasa nyaman.
+                    </p>
+                    <a href="login.php" class="call-to-action__button" type="button"><i class="fa fa-sign-in"
+                            aria-hidden="true"></i> Order!</a>
+                </div>
+            </div>
+            <img src="assets/img/slide2-gastour.jpg" style="width: 100%;height: 100%;">
+        </div>
+
+        <div class="myslider fade">
+            <div class="txt">
+                <div class="call-to-action">
+                    <h1 class="call-to-action__title">Jaminan Asuransi</h1>
+                    <p class="call-to-action__description">
+                        Anda tidak perlu kawatir tentang kesehatan Anda, kami menjamin penuh kesehatan Anda dari keberangkatan sampai pulang.
+                    </p>
+                    <a href="login.php" class="call-to-action__button" type="button"><i class="fa fa-sign-in"
+                            aria-hidden="true"></i> Order!</a>
+                </div>
+            </div>
+            <img src="assets/img/slide3-gastour.jpg" style="width: 100%;height: 100%;">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="dotsbox" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <div class="section-1" id="about">
+
+        <main class="u-centered" style="padding: 30px; font-weight: 500;">
+            <div class="row box-header">
+                <div class="coll-3 coll-1 box-flex-head">
+                    <div class="box-left-head">
+                        <div class="box-icon">
+                            <span class="material-icons color_green md-48">
+                                thumb_up</span>
+                        </div>
+                    </div>
+                    <div class="box-right-head">
+                        <h3>Best services</h3>
+                        <p class="text">Kami menjamin hasil yang memuaskan, didukung dengan tim profesional.
+                        </p>
+                    </div>
+                </div>
+                <div class="coll-3 coll-1 box-flex-head">
+                    <div class="box-left-head">
+                        <div class="box-icon">
+                            <span class="material-icons color_green md-48">
+                                update</span>
+                        </div>
+                    </div>
+                    <div class="box-right-head">
+                        <h3>Asuransi</h3>
+                        <p class="text">Jangan kawatir dengan kesehatan Anda, kami memberikan asuransi kesehatan.
+                        </p>
+                    </div>
+                </div>
+                <div class="coll-3 coll-1 box-flex-head">
+                    <div class="box-left-head">
+                        <div class="box-icon">
+                            <span class="material-icons color_green md-48">
+                                verified</span>
+                        </div>
+                    </div>
+                    <div class="box-right-head">
+                        <h3>Safe Tour</h3>
+                        <p class="text">Anda tidak perlu kawatir dengan proses perjalanan, kami sangat berhati-hati.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="u-centered" style="padding: 30px; font-weight: 500;">
+            <div class="row">
+                <div class="coll-2 l-section section-left">
+                    <img src="assets/img/about-gastur-head.jpg">
+                </div>
+                <div class="coll-2 l-section section-left">
+                    <div class="sub-head">
+                        Welcome to <strong>Gastur</strong>
+                    </div>
+                    <h1> About <strong>Gastur</strong> </h1>
+
+                    <p align="justify" id="about-p">
+                        Gastur didirikan pada awal tahun 2021. Kami merupakan perusahaan Startup yang terjun di bidang
+                        jasa tour & travel. Kami terbentuk dari beberapa tim unik dan solid
+                        yang siap mengantarkan Anda liburan Anda dengan nyaman dan tentunya murah.
+                    </p>
+
+                    <div class="info-about">
+                        <div class="coll-lg-6">
+                            <div class="content-list">
+                                <i class="bx bx-check-shield"></i>
+                                <p><b>Safety Travel System</b></p>
+                            </div>
+                        </div>
+                        <div class="coll-lg-6">
+                            <div class="content-list">
+                                <i class="bx bx-donate-heart"></i>
+                                <p><b>Budget-Friendly Tour</b></p>
+                            </div>
+                        </div>
+                        <div class="coll-lg-6">
+                            <div class="content-list">
+                                <i class="bx bx-time"></i>
+                                <p><b>Expert Trip Planning</b></p>
+                            </div>
+                        </div>
+                        <div class="coll-lg-6">
+                            <div class="content-list">
+                                <i class="bx bx-station"></i>
+                                <p><b>Fast Communication</b></p>
+                            </div>
+                        </div>
+                        <div class="coll-lg-6">
+                            <div class="content-list">
+                                <i class="bx bx-like"></i>
+                                <p><b>Right Solution &amp; Guide</b></p>
+                            </div>
+                        </div>
+                        <div class="coll-lg-6">
+                            <div class="content-list">
+                                <i class="bx bx-support"></i>
+                                <p><b>24/7 Customer Support</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <button class="call-to-action__button" type="button"><i class="fa fa-book" aria-hidden="true"></i>
+                        Contact Us</button>
+                    <button class="call-to-action__button" type="button"><i class="fa fa-book" aria-hidden="true"></i>
+                        Read More</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="section-2">
+        <div class="overlay">
+            <main class="u-centered" style="padding: 30px; font-weight: 500;">
+                <div class="sub-head head-align">
+                    Intro <strong>Team</strong>
+                </div>
+                <h1 class="head-align"> Our <strong>Experts</strong> </h1><br>
+
+                <div class="grid">
+                    <div class="coll-3 coll-expert">
+
+                        <div class="our-expert">
+                            <div class="expert-img">
+                                <img src="assets/img/about-1.jpg">
+                            </div>
+                            <div class="expert-desc service-text">
+                                <h4 class="expert-title"><a href="#">Mr. Roki Anjas</a></h4>
+                                <h4 class="expert-sub"><a href="#">Founder</a></h4>
+                                <hr>
+                                <div class="text">
+                                    Perkenalkan saya roki anjas, saya pendiri perusahaan Gastur.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="coll-3 coll-expert">
+                        <div class="our-expert">
+                            <div class="expert-img">
+                                <img src="assets/img/about-2.jpg">
+                            </div>
+                            <div class="expert-desc service-text">
+                                <h4 class="expert-title"><a href="#">Indirya Dian</a></h4>
+                                <h4 class="expert-sub"><a href="#">Assistant</a></h4>
+                                <hr>
+                                <div class="text">
+                                    Perkenalkan nama saya Angel Ellgaa, saya assisten direktur.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear-on-3"></div>
+                    <div class="coll-3 coll-expert">
+                        <div class="our-expert">
+                            <div class="expert-img">
+                                <img src="assets/img/about-3.jpg">
+                            </div>
+                            <div class="expert-desc service-text">
+                                <h4 class="expert-title"><a href="#">Rian Sari</a></h4>
+                                <h4 class="expert-sub"><a href="#">Staff</a></h4>
+                                <hr>
+                                <div class="text">
+                                    Perkenalkan nama saya Yogo Pratama, saya adalah staff admin.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="section-3" id="services">
+
+        <main class="u-centered" style="padding: 30px; font-weight: 500;">
+            <div class="heading">
+                <div class="sub-head">
+                    More <strong>information</strong>
+                </div>
+                <h1> Our <strong>Services</strong> </h1><br>
+            </div>
+            <div class="grid">
+                <div class="coll-3 coll-1 coll-6">
+
+                    <div class="single-service-item">
+
+                        <span class="top-border"></span>
+                        <span class="right-border"></span>
+                        <span class="bottom-border"></span>
+
+                        <div class="icon-box">
+                            <i class="bx bx-calendar"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4><strong><a href="#">Reservation</a></strong></h4>
+                            <div class="text">
+                                Saat ini Anda bisa memesan paket tour via aplikasi kami, cukup install aplikasi dan
+                                pesan sekarang.
+                            </div>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book"
+                                    aria-hidden="true"></i> Read More</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="coll-3 coll-1 coll-6">
+                    <div class="single-service-item">
+
+                        <span class="top-border"></span>
+                        <span class="right-border"></span>
+                        <span class="bottom-border"></span>
+
+                        <div class="icon-box">
+                            <i class="bx bxs-plane-take-off"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4><strong><a href="#">Tour Pack</a></strong></h4>
+                            <div class="text">
+                                Anda bisa memesan lebih dari satu lokasi wisata, Anda juga bisa memilih fasilitas tour
+                                dengan mudah.
+                            </div>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book"
+                                    aria-hidden="true"></i> Read More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear-on-3"></div>
+                <div class="coll-3 coll-1 coll-6">
+                    <div class="single-service-item">
+
+                        <span class="top-border"></span>
+                        <span class="right-border"></span>
+                        <span class="bottom-border"></span>
+
+                        <div class="icon-box">
+                            <i class="bx bx-money"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4><strong><a href="#">Payment</a></strong></h4>
+                            <div class="text">
+                                Pembayaran bisa dilakukan dengan aplikasi, selain
+                                menggunakan aplikasi Anda juga bisa datang langsung.
+                            </div>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book"
+                                    aria-hidden="true"></i> Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+        </main>
+    </div>
+
+    <div class="section-4" id="paket">
+        <div class="overlay">
+            <main class="u-centered" style="padding: 30px; font-weight: 500;">
+                <div class="head-events head-align">
+                    More <strong>info</strong>
+                </div>
+                <h1 id="portfolio-head" class="head-align"> Paket <strong>Tour</strong> </h1><br>
+
+                <div class="portf head-align">
+                    <div id="myBtnContainer">
+                        <button class="call-to-action__button current" onclick="filterSelection('semua')">
+                            Semua</button>
+                        <button class="call-to-action__button" onclick="filterSelection('nusantara')">
+                            Nusantara</button>
+                        <button class="call-to-action__button" onclick="filterSelection('internasional')">
+                            Internasional</button>
+                    </div>
+                </div><br><br>
+
+                <!-- Portfolio Gallery Grid -->
+                <div class="portf">
+                    <div class="pk-col column nusantara">
+                        <div class="expert-img">
+                            <img src="assets/img/germanggis-tour.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Banyumas, Indonesia</span>
+                            <h4>Pesona Germanggis</h4>
+                            <div class="review">
+                                <i class="bx bx-smile"></i>
+                                <span>8.5</span>
+                                <span>Ulasan</span>
+                            </div>
+                            <p>Germanggis salah satu tempat wisata yang indah & alami, perlu Anda coba. </p>
+                            <hr>
+                            <ul class="list">
+                                <li><i class="bx bx-time"></i>1 Days</li>
+                                <li><i class="bx bx-group"></i>160+</li>
+                                <li>Rp 250.000</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pk-col column nusantara">
+                        <div class="expert-img">
+                            <img src="assets/img/sikunir-tour.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Wonosobo, Indonesia</span>
+                            <h4>Negri Atas Awan</h4>
+                            <div class="review">
+                                <i class="bx bx-smile"></i>
+                                <span>8.5</span>
+                                <span>Ulasan</span>
+                            </div>
+                            <p>Sikunir salah satu tempat wisata yang indah & alami, perlu Anda coba.</p>
+                            <hr>
+                            <ul class="list">
+                                <li><i class="bx bx-time"></i>2 Days</li>
+                                <li><i class="bx bx-group"></i>160+</li>
+                                <li>Rp 500.000</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pk-col column nusantara">
+                        <div class="expert-img">
+                            <img src="assets/img/curug-tour.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Baturadden, Indonesia</span>
+                            <h4>Curug Pengantin</h4>
+                            <div class="review">
+                                <i class="bx bx-smile"></i>
+                                <span>8.5</span>
+                                <span>Ulasan</span>
+                            </div>
+                            <p>Curug Pengantin salah satu tempat wisata yang indah & alami, perlu Anda coba. </p>
+                            <hr>
+                            <ul class="list">
+                                <li><i class="bx bx-time"></i>1 Days</li>
+                                <li><i class="bx bx-group"></i>160+</li>
+                                <li>Rp 300.000</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="pk-col column internasional">
+                        <div class="expert-img">
+                            <img src="assets/img/singapur-tour.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Singa, Singapura</span>
+                            <h4>Wisata Singapura</h4>
+                            <div class="review">
+                                <i class="bx bx-smile"></i>
+                                <span>8.5</span>
+                                <span>Ulasan</span>
+                            </div>
+                            <p>Singapur merupakan kota yang ramai dan sangat cocok untuk berfoto dengan keluarga.</p>
+                            <hr>
+                            <ul class="list">
+                                <li><i class="bx bx-time"></i>4 Days</li>
+                                <li><i class="bx bx-group"></i>160+</li>
+                                <li>Rp 2.500.000</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pk-col column internasional">
+                        <div class="expert-img">
+                            <img src="assets/img/disneyland-tour.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Tokyo, Jepang</span>
+                            <h4>Disneyland</h4>
+                            <div class="review">
+                                <i class="bx bx-smile"></i>
+                                <span>8.5</span>
+                                <span>Ulasan</span>
+                            </div>
+                            <p>Disneyland salah satu yang paling terkenal didunia, sangat cocok untuk anak Anda. </p>
+                            <hr>
+                            <ul class="list">
+                                <li><i class="bx bx-time"></i>6 Days</li>
+                                <li><i class="bx bx-group"></i>160+</li>
+                                <li>Rp 5.000.000</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pk-col column internasional">
+                        <div class="expert-img">
+                            <img src="assets/img/piramida-tour.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Giza, Mesir</span>
+                            <h4>Pesona Piramida</h4>
+                            <div class="review">
+                                <i class="bx bx-smile"></i>
+                                <span>8.5</span>
+                                <span>Ulasan</span>
+                            </div>
+                            <p>Wisata ini merupakan wisata sejarah mesir, cocok bagi Anda yang suka sejarah.</p>
+                            <hr>
+                            <ul class="list">
+                                <li><i class="bx bx-time"></i>7 Days</li>
+                                <li><i class="bx bx-group"></i>160+</li>
+                                <li>Rp 8.500.000</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- END GRID -->
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="section-5" id="gallery">
+        <div class="overlay">
+            <main class="u-centered" style="padding: 30px; font-weight: 500;">
+                <div class="head-events head-align">
+                    More <strong>info</strong>
+                </div>
+                <h1 id="portfolio-head" class="head-align"> Gallery <strong>Gastur</strong> </h1><br>
+
+                <div class="portf head-align">
+                    <div id="myBtnContainerGallery">
+                        <button class="btn-gallery call-to-action__button current-gallery"
+                            onclick="filterSelectionGallery('all-gallery')">
+                            Semua</button>
+                        <button class="btn-gallery call-to-action__button" onclick="filterSelectionGallery('loc')">
+                            On Location</button>
+                        <button class="btn-gallery call-to-action__button" onclick="filterSelectionGallery('otw')">
+                            On The Way</button>
+                    </div>
+                </div><br><br>
+
+                <!-- Portfolio Gallery Grid -->
+                <div class="portf">
+                    <div class="gl-col column otw">
+                        <div class="expert-img">
+                            <img src="assets/img/otw-1.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Purwokerto, Indonesia</span>
+                            <h4>Sesi Keberangkatan</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>15 April 2020</span>
+                            </div>
+                            <p>Persiapan untuk melakukan keberangkatan menggunakan bus.</p>
+                        </div>
+                    </div>
+                    <div class="gl-col column otw">
+                        <div class="expert-img">
+                            <img src="assets/img/otw-2.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Bandung, Indonesia</span>
+                            <h4>Sesi Istirahat</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>15 April 2020</span>
+                            </div>
+                            <p>Sesi untuk beristirahat sejenak, makan dan menunaikan ibadah.</p>
+                        </div>
+                    </div>
+                    <div class="gl-col column otw">
+                        <div class="expert-img">
+                            <img src="assets/img/otw-3.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Jakarta, Indonesia</span>
+                            <h4>Sesi Transit</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>15 April 2020</span>
+                            </div>
+                            <p>Telah sampai dilokasi, siap-siap untuk menuju lokasi wisata.</p>
+                        </div>
+                    </div>
+
+                    <div class="gl-col column loc">
+                        <div class="expert-img">
+                            <img src="assets/img/loc-1.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Singa, Singapura</span>
+                            <h4>Transit di Singapura</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>15 April 2020</span>
+                            </div>
+                            <p>Berwisata ke lokasi paling populer di Singapura, sesi foto-foto.</p>
+                        </div>
+                    </div>
+                    <div class="gl-col column loc">
+                        <div class="expert-img">
+                            <img src="assets/img/loc-2.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Tokyo, Jepang</span>
+                            <h4>Transit di Disneyland</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>15 April 2020</span>
+                            </div>
+                            <p>Berwisata ke lokasi festival disneyland, sesi foto-foto.</p>
+                        </div>
+                    </div>
+                    <div class="gl-col column loc">
+                        <div class="expert-img">
+                            <img src="assets/img/loc-3.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Giza, Mesir</span>
+                            <h4>Transit di Piramida</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>15 April 2020</span>
+                            </div>
+                            <p>Berkunjung ke piramida untuk menggali sejarah piramida.</p>
+                        </div>
+                    </div>
+
+                    <!-- END GRID -->
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="section-4" id="events">
+        <div class="overlay">
+            <main class="u-centered" style="padding: 30px; font-weight: 500;">
+                <div class="head-events head-align">
+                    More <strong>info</strong>
+                </div>
+                <h1 id="portfolio-head" class="head-align"> Events <strong>Gastur</strong> </h1><br>
+
+                <div class="portf head-align">
+                    <div id="myBtnContainerEvents">
+                        <button class="btn-events call-to-action__button current-events"
+                            onclick="filterSelectionEvents('all-events')">
+                            Semua</button>
+                        <button class="btn-events call-to-action__button" onclick="filterSelectionEvents('internal')">
+                            Internal</button>
+                        <button class="btn-events call-to-action__button" onclick="filterSelectionEvents('external')">
+                            External</button>
+                    </div>
+                </div><br><br>
+
+                <!-- Portfolio Gallery Grid -->
+                <div class="portf">
+                    <div class="ev-col column internal">
+                        <div class="expert-img">
+                            <img src="assets/img/events-1.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Baturraden, Indonesia</span>
+                            <h4>Ulang Tahun Gastur</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>8 Mei 2021</span>
+                            </div>
+                            <p>Merayakan ulang tahun Gastur ke-3, ini merupakan moment bahagia bagi keluarga Gastur</p>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book" aria-hidden="true"></i>
+                                Read More</button>
+                        </div>
+                    </div>
+                    <div class="ev-col column internal">
+                        <div class="expert-img">
+                            <img src="assets/img/events-2.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Semarang, Indonesia</span>
+                            <h4>Family Gathering</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>8 Mei 2021</span>
+                            </div>
+                            <p>Ini merupakan moment liburan bersama keluarga Gastur ke Karimunjawa.</p>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book" aria-hidden="true"></i>
+                                Read More</button>
+                        </div>
+                    </div>
+                    <div class="ev-col column internal">
+                        <div class="expert-img">
+                            <img src="assets/img/events-3.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Purwokerto, Indonesia</span>
+                            <h4>Buka Puasa Bersama</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>8 Mei 2021</span>
+                            </div>
+                            <p>Dengan adanya event buka bersama, semoga bisa mempererat keluarga Gastur.</p>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book" aria-hidden="true"></i>
+                                Read More</button>
+                        </div>
+                    </div>
+
+                    <div class="ev-col column external">
+                        <div class="expert-img">
+                            <img src="assets/img/events-4.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Purwokerto, Indonesia</span>
+                            <h4>Liburan Gratis</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>8 Mei 2021</span>
+                            </div>
+                            <p>Lagi-lagi gastur membuka peluang liburan gratis untuk kalian semua yang berminat.</p>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book" aria-hidden="true"></i>
+                                Read More</button>
+                        </div>
+                    </div>
+                    <div class="ev-col column external">
+                        <div class="expert-img">
+                            <img src="assets/img/events-5.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Purwokerto, Indonesia</span>
+                            <h4>Kerja Sama Gastur</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>8 Mei 2021</span>
+                            </div>
+                            <p>Untuk memperbesar perusahaan Gastur, kami membuka peluang kerja sama bagi Anda.</p>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book" aria-hidden="true"></i>
+                                Read More</button>
+                        </div>
+                    </div>
+                    <div class="ev-col column external">
+                        <div class="expert-img">
+                            <img src="assets/img/events-6.jpg" alt="Mountains" style="width:100%">
+                        </div>
+                        <div class="content">
+                            <span class="location"><i class="bx bx-map"></i>Kebumen, Indonesia</span>
+                            <h4>Gastur Peduli Sesama</h4>
+                            <div class="review">
+                                <i class="bx bx-calendar"></i>
+                                <span>8 Mei 2021</span>
+                            </div>
+                            <p>Event paling berbahagia dimana Gastur berbagi makanan untuk orang yang kurang mampu.</p>
+                            <button class="call-to-action__button" type="button"><i class="fa fa-book" aria-hidden="true"></i>
+                                Read More</button>
+                        </div>
+                    </div>
+
+                    <!-- END GRID -->
+                </div>
+            </main>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="section-5" id="testimoni">
+
+        <main class="u-centered" style="padding: 30px; font-weight: 500;">
+            <div class="sub-head head-align">
+                Testimonial
+            </div>
+            <h1 class="head-align">Ini Kata<strong> Mereka</strong> </h1><br>
+
+            <div class="testi">
+                <div class="testi-coll">
+                    <div class="testimonial">
+                        <div class="img-area">
+                            <img src="assets/img/testi-1.jpg" alt="tes1" style="width:100%">
+                        </div>
+                        <h4>Putri Aska</h4>
+                        <p>Layanan terbaik dalam bidang pariwisata. Aman & Nyaman.</p>
+                        <p class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-behance"></i>
+                            <i class="fa fa-youtube"></i>
+                            <i class="fa fa-dribbble"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="testi-coll">
+                    <div class="testimonial">
+                        <div class="img-area">
+                            <img src="assets/img/testi-2.jpg" alt="tes2" style="width:100%">
+                        </div>
+                        <h4>Khalida Melani</h4>
+                        <p>Fasilitas yang sangat lengkap, sangat luar biasa.</p>
+                        <p class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-behance"></i>
+                            <i class="fa fa-youtube"></i>
+                            <i class="fa fa-dribbble"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="testi-coll">
+                    <div class="testimonial">
+                        <div class="img-area">
+                            <img src="assets/img/testi-3.jpg" alt="tes3" style="width:100%">
+                        </div>
+                        <h4>Fitri Artika</h4>
+                        <p>Puas dengan layanan yang diberikan, tim juga ramah.</p>
+                        <p class="socials">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-behance"></i>
+                            <i class="fa fa-youtube"></i>
+                            <i class="fa fa-dribbble"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <div class="section-6">
+
+        <main class="u-centered" style="padding: 30px; font-weight: 500;">
+            <div class="grid">
+                <div class="coll-3 coll-1 footer-m footer-align">
+                    <h3> About </h3>
+                    <hr>
+                    <img class="bar__logo__footer" src="assets/img/logo-gastur-col.png">
+                    <p class="des__footer">Gastur yaitu sebuah website berfokus pada bidang jasa Tour & travel. </p>
+                </div>
+                <div class="coll-3 coll-1 footer-m footer-align">
+                    <h3> Navigation </h3>
+                    <hr>
+                    <ul class="des__footer">
+                        <li><a class="putih" href="#about">About Us</a></li>
+                        <li><a class="putih" href="#services">Services</a></li>
+                        <li><a class="putih" href="#paket">Paket</a></li>
+                        <li><a class="putih" href="#gallery">Gallery</a></li>
+                        <li><a class="putih" href="#events">Events</a></li>
+                        <li><a class="putih" href="#testimoni">Testimonial</a></li>
+                    </ul>
+                </div>
+                <div class="coll-3 coll-1 footer-m footer-align">
+                    <h3> Google Maps </h3>
+                    <hr>
+                    <img src="assets/img/map-gastur.jpg" width="250px">
+                </div>
+            </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="copyright">
+                <div class="">
+                    Di buat Oleh <u>Roki Anjas</u>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+    </div>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const observer = new IntersectionObserver(entries => {
+            document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio <
+                0.9)
+        }, {
+            threshold: 0.9
+        });
+    });
+</script>
+
+<script src="assets/js/script.js"></script>
+
+</html>
